@@ -25,9 +25,11 @@ Follow these steps to deploy the Three-Tier Web Application on AWS:
    Create a VPC (CIDR: 10.0.0.0/16).
    Create 2 public subnets (for Web Tier) and 2 private subnets (for App & DB Tiers).
 📊 Updated Architecture with Subnets
-1. Public Subnet (Web Tier) → 10.0.1.0/24 Hosts EC2 (Nginx + PHP) Internet-facing (via IGW)
-2. Private Subnet (Application Tier) → 10.0.2.0/24 Hosts EC2 (PHP backend) Communicates only with Web & DB tiers
-3. Private Subnet (Database Tier) → 10.0.3.0/24 Hosts Amazon RDS (MySQL)
+1. Public Subnet (Web Tier server) → 10.0.1.0/24 Hosts EC2 (Nginx + PHP) Internet-facing (via IGW)
+   copy form.html to /usr/share/ngnix/www/
+2. Private Subnet (Application Tier server) → 10.0.2.0/24 Hosts EC2 (PHP backend) Communicates only with Web & DB tiers
+   copy submit.php to /usr/share/nginx/www/
+3. Private Subnet (Database Tier server) → 10.0.3.0/24 Hosts Amazon RDS (MySQL)
 Accessible only from App Tier
 2.   Attach an Internet Gateway (IGW) to the VPC.
    Create NAT Gateway in the public subnet for private subnets to access the internet.
