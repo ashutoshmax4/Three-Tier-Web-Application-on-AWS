@@ -1,4 +1,4 @@
-<img width="2844" height="882" alt="image" src="https://github.com/user-attachments/assets/84ee8135-ce96-4428-8e89-a0bbf33067c3" />Three-Tier Web Application on AWS
+Three-Tier Web Application on AWS
 🔹 Project Description
 I designed and deployed a scalable, secure, and highly available Three-Tier Web Application using AWS best practices. This project demonstrates my ability to build production-like cloud architectures as a fresher exploring AWS
 ✅ Key Highlights
