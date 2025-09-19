@@ -1,6 +1,7 @@
 Three-Tier Web Application on AWS
 🔹 Project Description
-I designed and deployed a scalable, secure, and highly available Three-Tier Web Application using AWS best practices. This project demonstrates my ability to build production-like cloud architectures as a fresher exploring AWS
+    I designed and deployed a scalable, secure, and highly available Three-Tier Web Application using AWS best practices. This project demonstrates my ability to build production-like        cloud architectures as a fresher exploring AWS
+    
 ✅ Key Highlights
 🏗 VPC with public & private subnets → for secure network segmentation.
 🌐 Web Tier → Deployed Nginx + PHP on EC2 instances to serve dynamic content.
@@ -9,7 +10,9 @@ I designed and deployed a scalable, secure, and highly available Three-Tier Web 
 🔒 Security First → Used security groups & private subnets to restrict unauthorized access.
 📈 Scalability → Designed architecture with the ability to scale horizontally/vertically.
 📊 Architecture Diagram
+
 <img width="917" height="1399" alt="three-tier img" src="https://github.com/user-attachments/assets/d24904de-4cc4-4a89-bdc0-6a1a7c40a76f" />
+
 End-to-End Deployment Steps
 Follow these steps to deploy the Three-Tier Web Application on AWS:
 1. Setup VPC & Networking
