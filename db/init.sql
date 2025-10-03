@@ -1,0 +1,2 @@
+use facebook
+create table users (id int not null primary key auto_increment,name varchar(50),email varchar(50),website varchar(50),comment varchar(100),gender varchar(10));
