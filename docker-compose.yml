@@ -4,7 +4,7 @@ services:
      ports: 
         - "80:80"
      volumes:
-        - ./web/code:/usr/share/nginx/html
+        - ./app/code:/usr/share/nginx/html
         - ./web/config:/etc/nginx/conf.d
      networks: 
         - webnet
@@ -20,13 +20,12 @@ services:
        - webnet
        - dbnet
 
-
    db:
      build: ./db
      volumes:
        - myvolume:/var/lib/mysql
      networks:
-        - dbnet
+       - dbnet
 
 volumes:
    myvolume:
